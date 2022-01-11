@@ -1,0 +1,47 @@
+1.Inicio
+2. funcionPrincipal ()
+3. area_figura,
+4. d[0-n] areaObtenida, x(20)[{a-z}, {A-Z}, {0-n}, "BS"]
+5. altura, d[0-n]
+6. base, d[0-n]
+7. datosColocar, i[1-3]
+8.Escribir "Coloque la base de la figura"
+9.leer base
+10.Escribir "Coloque la altura de la figura"
+11.leer altura
+12.Escribir "Coloque un número para calcular el área de la figura [1]Cuadrado, [2]Triángulo, [3]Rectángulo"
+13.Leer datosColocar
+14.si(datosColocar == 1)entonces
+15. obtenerCuadrado(base, altura)
+16.caso contrario
+17. si(datosColocar == 2)entonces
+18. obtenerTriangulo(base, altura)
+19.caso contrario
+20. si(datosColocar == 3)entonces
+21. obtenerRectangulo(base, altura)
+22.caso contrario
+23.Escribir "Valor de ingreso no es admitido"
+24. Fin si
+25. Fin si
+26. Fin si
+27. Escribir "Área de la figura es: "+ "area_figura"
+28. Fin funcionPrincipal
+29.
+30. // función área del Cuadrado
+31. funcion obtenerCuadrado (base, d; altura, d)
+32. 	area_cuadrado, d[0-n]
+33. 	area_cuadrado <-- base * altura
+34. fin funcion obtenerCuadrado
+35.
+36. // función área del Triángulo
+37. funcion obtenerTriangulo (base, d; altura, d)
+38. 	area_triangulo, d[0-n]
+39. 	area_triangulo <-- (base * altura)/2
+40. fin funcion obtenerTriangulo
+41.
+42. // función área del Rectángulo
+43. funcion obtenerRectangulo (base, d; altura, d)
+44. 	area_rectangulo, d[0-n]
+45. 	area_rectangulo <-- base * altura
+46. fin funcion obtenerRectangulo
+47. Fin
